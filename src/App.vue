@@ -54,7 +54,7 @@ const allOrders = computed(() => totalOrdenes([
         role="tab"
         @click="activeCardSection = 'Desayunos'"
       >
-        Desayunos
+        Almuerzos
       </button>
     
       <button

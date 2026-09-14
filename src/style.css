@@ -446,7 +446,7 @@ body {
 }
 
 .game-card {
-  overflow: hidden;
+  overflow: visible;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 18px;
   background: rgba(22, 20, 31, 0.88);
@@ -456,11 +456,15 @@ body {
 }
 
 .card-tabs {
+  position: sticky;
+  top: 0;
+  z-index: 10;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0.5rem;
   padding: 0.75rem;
-  background: rgba(255, 255, 255, 0.08);
+  background: #26222fea;
+  border-radius: 18px 18px 0 0;
 }
 
 .card-tab {
